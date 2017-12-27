@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C282B8331FF342770089BADF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282B8321FF342770089BADF /* main.swift */; };
+		C282B8701FF3694A0089BADF /* NNLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C282B8671FF369490089BADF /* NNLib.framework */; };
+		C282B8751FF3694A0089BADF /* NNLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282B8741FF3694A0089BADF /* NNLibTests.swift */; };
+		C282B8771FF3694A0089BADF /* NNLib.h in Headers */ = {isa = PBXBuildFile; fileRef = C282B8691FF369490089BADF /* NNLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C282B87E1FF3695B0089BADF /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF3D1FF23434003684C7 /* Activation.swift */; };
+		C282B87F1FF3695B0089BADF /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF3E1FF23434003684C7 /* Cache.swift */; };
+		C282B8801FF3695B0089BADF /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF3F1FF23434003684C7 /* Dataset.swift */; };
+		C282B8811FF3695B0089BADF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF3C1FF23434003684C7 /* Error.swift */; };
+		C282B8821FF3695B0089BADF /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF3B1FF23434003684C7 /* NeuralNet.swift */; };
+		C282B8831FF3695B0089BADF /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF401FF23434003684C7 /* Storage.swift */; };
+		C282B8841FF3695B0089BADF /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF3A1FF23434003684C7 /* Structure.swift */; };
+		C282B8851FF369950089BADF /* NNLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C282B8671FF369490089BADF /* NNLib.framework */; };
+		C282B8871FF369F90089BADF /* MNISTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282B8861FF369F90089BADF /* MNISTManager.swift */; };
 		C299BF2A1FF233FA003684C7 /* NeuralNetworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C299BF201FF233FA003684C7 /* NeuralNetworks.framework */; };
 		C299BF2F1FF233FA003684C7 /* NeuralNetworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299BF2E1FF233FA003684C7 /* NeuralNetworksTests.swift */; };
 		C299BF311FF233FA003684C7 /* NeuralNetworks.h in Headers */ = {isa = PBXBuildFile; fileRef = C299BF231FF233FA003684C7 /* NeuralNetworks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C282B8711FF3694A0089BADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C299BF171FF233FA003684C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C282B8661FF369490089BADF;
+			remoteInfo = NNLib;
+		};
 		C299BF2B1FF233FA003684C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C299BF171FF233FA003684C7 /* Project object */;
@@ -30,7 +50,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C282B82E1FF342770089BADF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C282B8301FF342770089BADF /* Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Training; sourceTree = BUILT_PRODUCTS_DIR; };
+		C282B8321FF342770089BADF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C282B8671FF369490089BADF /* NNLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NNLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C282B8691FF369490089BADF /* NNLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNLib.h; sourceTree = "<group>"; };
+		C282B86A1FF369490089BADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C282B86F1FF369490089BADF /* NNLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C282B8741FF3694A0089BADF /* NNLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNLibTests.swift; sourceTree = "<group>"; };
+		C282B8761FF3694A0089BADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C282B8861FF369F90089BADF /* MNISTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNISTManager.swift; sourceTree = "<group>"; };
+		C282B8891FF36E9D0089BADF /* t10k-images-idx3-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-images-idx3-ubyte"; sourceTree = "<group>"; };
+		C282B88A1FF36E9D0089BADF /* t10k-labels-idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-labels-idx1-ubyte"; sourceTree = "<group>"; };
+		C282B88B1FF36E9D0089BADF /* train-images-idx3-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-images-idx3-ubyte"; sourceTree = "<group>"; };
+		C282B88C1FF36E9D0089BADF /* train-labels-idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-labels-idx1-ubyte"; sourceTree = "<group>"; };
 		C299BF201FF233FA003684C7 /* NeuralNetworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeuralNetworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C299BF231FF233FA003684C7 /* NeuralNetworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuralNetworks.h; sourceTree = "<group>"; };
 		C299BF241FF233FA003684C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +93,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C282B82D1FF342770089BADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282B8851FF369950089BADF /* NNLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282B8631FF369490089BADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282B86C1FF369490089BADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282B8701FF3694A0089BADF /* NNLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C299BF1C1FF233FA003684C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,13 +134,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C282B8311FF342770089BADF /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				C282B8881FF36E9D0089BADF /* MNIST */,
+				C282B8321FF342770089BADF /* main.swift */,
+				C282B8861FF369F90089BADF /* MNISTManager.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		C282B8371FF342AD0089BADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C282B8681FF369490089BADF /* NNLib */ = {
+			isa = PBXGroup;
+			children = (
+				C282B8691FF369490089BADF /* NNLib.h */,
+				C282B86A1FF369490089BADF /* Info.plist */,
+			);
+			path = NNLib;
+			sourceTree = "<group>";
+		};
+		C282B8731FF3694A0089BADF /* NNLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				C282B8741FF3694A0089BADF /* NNLibTests.swift */,
+				C282B8761FF3694A0089BADF /* Info.plist */,
+			);
+			path = NNLibTests;
+			sourceTree = "<group>";
+		};
+		C282B8881FF36E9D0089BADF /* MNIST */ = {
+			isa = PBXGroup;
+			children = (
+				C282B8891FF36E9D0089BADF /* t10k-images-idx3-ubyte */,
+				C282B88A1FF36E9D0089BADF /* t10k-labels-idx1-ubyte */,
+				C282B88B1FF36E9D0089BADF /* train-images-idx3-ubyte */,
+				C282B88C1FF36E9D0089BADF /* train-labels-idx1-ubyte */,
+			);
+			path = MNIST;
+			sourceTree = "<group>";
+		};
 		C299BF161FF233FA003684C7 = {
 			isa = PBXGroup;
 			children = (
 				C299BF481FF23444003684C7 /* README.md */,
 				C299BF221FF233FA003684C7 /* NeuralNetworks */,
 				C299BF2D1FF233FA003684C7 /* NeuralNetworksTests */,
+				C282B8311FF342770089BADF /* Training */,
+				C282B8681FF369490089BADF /* NNLib */,
+				C282B8731FF3694A0089BADF /* NNLibTests */,
 				C299BF211FF233FA003684C7 /* Products */,
+				C282B8371FF342AD0089BADF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +199,9 @@
 			children = (
 				C299BF201FF233FA003684C7 /* NeuralNetworks.framework */,
 				C299BF291FF233FA003684C7 /* NeuralNetworksTests.xctest */,
+				C282B8301FF342770089BADF /* Training */,
+				C282B8671FF369490089BADF /* NNLib.framework */,
+				C282B86F1FF369490089BADF /* NNLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +234,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		C282B8641FF369490089BADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282B8771FF3694A0089BADF /* NNLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C299BF1D1FF233FA003684C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +253,59 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		C282B82F1FF342770089BADF /* Training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C282B8361FF342770089BADF /* Build configuration list for PBXNativeTarget "Training" */;
+			buildPhases = (
+				C282B82C1FF342770089BADF /* Sources */,
+				C282B82D1FF342770089BADF /* Frameworks */,
+				C282B82E1FF342770089BADF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Training;
+			productName = Training;
+			productReference = C282B8301FF342770089BADF /* Training */;
+			productType = "com.apple.product-type.tool";
+		};
+		C282B8661FF369490089BADF /* NNLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C282B8781FF3694A0089BADF /* Build configuration list for PBXNativeTarget "NNLib" */;
+			buildPhases = (
+				C282B8621FF369490089BADF /* Sources */,
+				C282B8631FF369490089BADF /* Frameworks */,
+				C282B8641FF369490089BADF /* Headers */,
+				C282B8651FF369490089BADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNLib;
+			productName = NNLib;
+			productReference = C282B8671FF369490089BADF /* NNLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C282B86E1FF369490089BADF /* NNLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C282B87B1FF3694A0089BADF /* Build configuration list for PBXNativeTarget "NNLibTests" */;
+			buildPhases = (
+				C282B86B1FF369490089BADF /* Sources */,
+				C282B86C1FF369490089BADF /* Frameworks */,
+				C282B86D1FF369490089BADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C282B8721FF3694A0089BADF /* PBXTargetDependency */,
+			);
+			name = NNLibTests;
+			productName = NNLibTests;
+			productReference = C282B86F1FF369490089BADF /* NNLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C299BF1F1FF233FA003684C7 /* NeuralNetworks */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C299BF341FF233FA003684C7 /* Build configuration list for PBXNativeTarget "NeuralNetworks" */;
@@ -170,6 +352,18 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = wangkan;
 				TargetAttributes = {
+					C282B82F1FF342770089BADF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C282B8661FF369490089BADF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C282B86E1FF369490089BADF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					C299BF1F1FF233FA003684C7 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
@@ -195,11 +389,28 @@
 			targets = (
 				C299BF1F1FF233FA003684C7 /* NeuralNetworks */,
 				C299BF281FF233FA003684C7 /* NeuralNetworksTests */,
+				C282B82F1FF342770089BADF /* Training */,
+				C282B8661FF369490089BADF /* NNLib */,
+				C282B86E1FF369490089BADF /* NNLibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C282B8651FF369490089BADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282B86D1FF369490089BADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C299BF1E1FF233FA003684C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +429,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C282B82C1FF342770089BADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282B8331FF342770089BADF /* main.swift in Sources */,
+				C282B8871FF369F90089BADF /* MNISTManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282B8621FF369490089BADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282B87E1FF3695B0089BADF /* Activation.swift in Sources */,
+				C282B87F1FF3695B0089BADF /* Cache.swift in Sources */,
+				C282B8801FF3695B0089BADF /* Dataset.swift in Sources */,
+				C282B8811FF3695B0089BADF /* Error.swift in Sources */,
+				C282B8821FF3695B0089BADF /* NeuralNet.swift in Sources */,
+				C282B8831FF3695B0089BADF /* Storage.swift in Sources */,
+				C282B8841FF3695B0089BADF /* Structure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282B86B1FF369490089BADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282B8751FF3694A0089BADF /* NNLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C299BF1B1FF233FA003684C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +485,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C282B8721FF3694A0089BADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C282B8661FF369490089BADF /* NNLib */;
+			targetProxy = C282B8711FF3694A0089BADF /* PBXContainerItemProxy */;
+		};
 		C299BF2C1FF233FA003684C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C299BF1F1FF233FA003684C7 /* NeuralNetworks */;
@@ -251,6 +498,116 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C282B8341FF342770089BADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3MH7MTTSB;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C282B8351FF342770089BADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3MH7MTTSB;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C282B8791FF3694A0089BADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W3MH7MTTSB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NNLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = rockgarden.NNLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C282B87A1FF3694A0089BADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W3MH7MTTSB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NNLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = rockgarden.NNLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C282B87C1FF3694A0089BADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W3MH7MTTSB;
+				INFOPLIST_FILE = NNLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = rockgarden.NNLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C282B87D1FF3694A0089BADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W3MH7MTTSB;
+				INFOPLIST_FILE = NNLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = rockgarden.NNLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		C299BF321FF233FA003684C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -442,6 +799,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C282B8361FF342770089BADF /* Build configuration list for PBXNativeTarget "Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C282B8341FF342770089BADF /* Debug */,
+				C282B8351FF342770089BADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C282B8781FF3694A0089BADF /* Build configuration list for PBXNativeTarget "NNLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C282B8791FF3694A0089BADF /* Debug */,
+				C282B87A1FF3694A0089BADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C282B87B1FF3694A0089BADF /* Build configuration list for PBXNativeTarget "NNLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C282B87C1FF3694A0089BADF /* Debug */,
+				C282B87D1FF3694A0089BADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C299BF1A1FF233FA003684C7 /* Build configuration list for PBXProject "NeuralNetworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
